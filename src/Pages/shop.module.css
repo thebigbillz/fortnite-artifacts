@@ -1,0 +1,6 @@
+.shop nav {
+  border-right: 1px solid #000;
+}
+.shop {
+  display: flex;
+}
