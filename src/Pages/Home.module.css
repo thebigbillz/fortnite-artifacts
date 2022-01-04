@@ -1,0 +1,45 @@
+.home {
+  min-height: 92vh;
+  background: linear-gradient(
+      0deg,
+      rgba(20, 60, 190, 0.507),
+      rgba(8, 6, 43, 0.644)
+    ),
+    url(../assets/home.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.home h1 {
+  font-size: 4rem;
+  width: 70%;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+  padding: 3.6rem;
+  margin-top: -15.8rem;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.home a {
+  background-color: rgba(31, 31, 51, 0.589);
+  padding: 0.9rem 3.5rem;
+  margin-top: 5rem;
+  margin-bottom: -10rem;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.904);
+  text-decoration: none;
+
+  font-size: 1.7rem;
+  transition: all 0.6s ease-out;
+  border: 1px solid white;
+}
+
+.home a:hover {
+  background-color: rgba(31, 31, 51, 0.959);
+  border: 1px solid rgba(255, 255, 255, 0.61);
+}

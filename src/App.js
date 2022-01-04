@@ -13,7 +13,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/shop" element={<Shop />}>
             <Route index element={<h3>Select Item </h3>} />
             <Route path="/shop/:id" element={<ItemDetail />} />

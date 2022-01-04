@@ -6,7 +6,9 @@ const Nav = () => {
   return (
     <div className={Style.nav}>
       <nav>
-        <h1>Fortnite Artifacts</h1>
+        <h1 style={{ fontSize: "2.2rem", fontWeight: "500" }}>
+          Fortnite Artifacts
+        </h1>
         <ul>
           <NavLink
             className={({ isActive }) =>
@@ -16,21 +18,21 @@ const Nav = () => {
           >
             Home
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className={({ isActive }) =>
               isActive ? Style.active : Style.navLink
             }
             to="/about"
           >
             About
-          </NavLink>
+          </NavLink> */}
           <NavLink
             className={({ isActive }) =>
               isActive ? Style.active : Style.navLink
             }
             to="/shop"
           >
-            Shop
+            Gallery
           </NavLink>
         </ul>
       </nav>
