@@ -25,7 +25,6 @@
 }
 
 .shop nav {
-  border-right: 1px solid #000;
   padding-left: 6rem;
 }
 .shop {
@@ -84,5 +83,28 @@
   padding-right: 2px;
   padding-left: 2px;
   margin-left: 4px;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b6c4e6e3;
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(49, 52, 73, 0.712);
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
