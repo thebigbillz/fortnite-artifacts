@@ -64,3 +64,9 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 855px) and (orientation: landscape) {
+  .item div {
+    display: none;
+  }
+}
