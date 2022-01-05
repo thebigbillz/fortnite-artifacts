@@ -38,13 +38,10 @@
   border: 1px solid rgba(255, 255, 255, 0.61);
 }
 
-
 @media screen and (max-width: 600px) {
   .home h1 {
     font-size: 2.5rem;
     width: 90%;
     padding: 1rem;
   }
-}
-  
 }
