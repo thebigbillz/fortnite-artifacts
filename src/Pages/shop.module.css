@@ -1,4 +1,6 @@
 .shopContainer {
+  min-height: 92vh;
+  margin-bottom: 3rem;
 }
 
 .shopContainer h1 {
