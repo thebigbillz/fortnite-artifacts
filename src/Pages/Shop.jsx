@@ -22,7 +22,7 @@ const Shop = () => {
   return (
     <div className={Style.shopContainer}>
       <div>
-        <h1>Artifacts List</h1>
+        <h1>Upcoming Artifacts List</h1>
       </div>
       <div className={Style.shop}>
         <nav>
@@ -39,7 +39,7 @@ const Shop = () => {
             ))}
           </ul>
         </nav>
-        <Outlet />
+        <Outlet className={Style.outlet1} />
       </div>
     </div>
   );

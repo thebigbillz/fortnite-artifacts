@@ -1,1 +1,12 @@
-
+.App {
+  min-height: 100vh;
+  background: linear-gradient(
+      0deg,
+      rgba(20, 60, 190, 0.836),
+      rgba(8, 6, 43, 0.856)
+    ),
+    url(./assets/home.jpg);
+  background-size: cover;
+  overflow-y: auto;
+  padding-bottom: 2rem;
+}

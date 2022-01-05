@@ -1,11 +1,5 @@
 .home {
   min-height: 92vh;
-  background: linear-gradient(
-      0deg,
-      rgba(20, 60, 190, 0.507),
-      rgba(8, 6, 43, 0.644)
-    ),
-    url(../assets/home.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;

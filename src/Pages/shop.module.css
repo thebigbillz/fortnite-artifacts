@@ -1,12 +1,4 @@
 .shopContainer {
-  min-height: 92vh;
-  background: linear-gradient(
-      0deg,
-      rgba(20, 60, 190, 0.836),
-      rgba(8, 6, 43, 0.856)
-    ),
-    url(../assets/home.jpg);
-  background-size: cover;
 }
 
 .shopContainer h1 {
@@ -31,20 +23,17 @@
   display: flex;
   max-height: 90vh;
   max-width: 144rem;
-  padding-top: 1rem;
+  padding-top: 2.5rem;
   padding-bottom: 1rem;
   margin: 0 auto;
-  align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .shop nav {
   overflow-y: scroll;
   list-style: none;
   max-height: 70vh;
-  flex: 1 1 20rem;
-}
-.shop :nth-child(2) {
-  flex: 2 1 70rem;
+  flex: 1 1 40rem;
 }
 
 .shop ul li {
@@ -65,17 +54,6 @@
   color: #fff;
 }
 
-.shop ul li a.active {
-  color: white;
-  text-decoration: none;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 2px;
-  padding-right: 2px;
-  padding-left: 2px;
-  margin-left: 4px;
-  font-size: 1.9rem;
-}
-
 .shop ul li a:hover {
   color: white;
   text-decoration: none;
@@ -83,7 +61,24 @@
   padding-right: 2px;
   padding-left: 2px;
   margin-left: 4px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
+}
+
+.shop ul li a.active {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 10px;
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+.shop ul li a.active::after {
+  color: white;
+  content: "     >>";
+  font-size: 1.8rem;
 }
 
 /* width */
@@ -107,4 +102,10 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media screen and (max-width: 1025px) {
+  .shop nav {
+    flex-basis: 20rem;
+  }
 }
