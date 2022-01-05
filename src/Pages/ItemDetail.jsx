@@ -33,10 +33,10 @@ const ItemDetail = () => {
   return (
     <div className={Style.item}>
       <h2>{item.item.name}</h2>
-      <div>
+      {/* <div>
         <p>Cost</p>
         <p>{item.item.cost || "Free"}</p>
-      </div>
+      </div> */}
       <div>
         <p>Rarity</p>
         <p>{item.item.rarity}</p>
