@@ -24,6 +24,7 @@ function App() {
                     fontSize: "2rem",
                     fontWeight: "500",
                     flex: "3 1 30rem",
+                    marginTop: "1rem",
                   }}
                 >
                   Select Item{" "}
