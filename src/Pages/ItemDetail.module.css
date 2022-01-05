@@ -56,6 +56,11 @@
 
 @media screen and (max-width: 525px) {
   .item {
-    margin: 5rem 1rem;
+    margin: 3rem 2rem;
+  }
+
+  .item img {
+    height: 10rem !important;
+    width: auto;
   }
 }

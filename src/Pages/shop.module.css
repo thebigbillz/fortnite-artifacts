@@ -1,6 +1,5 @@
 .shopContainer {
   min-height: 92vh;
-  margin-bottom: 3rem;
 }
 
 .shopContainer h1 {
@@ -109,5 +108,21 @@
 @media screen and (max-width: 1025px) {
   .shop nav {
     flex-basis: 20rem;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .shop nav {
+    height: 20vh;
+  }
+
+  .shopContainer h1 {
+    color: rgba(255, 255, 255, 0.911);
+    padding: 1.1rem;
+    padding-top: 2rem;
+    padding-left: 6rem;
+    text-align: Left;
+    font-size: 2.3rem;
+    font-weight: 600;
   }
 }
